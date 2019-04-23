@@ -3,6 +3,7 @@ CREATE TABLE `wookie` (
   `Nom` varchar(250) NOT NULL,
   `Taille` decimal(18, 2) NOT NULL,
   `Age` int NOT NULL,  
+  `DateDeNaissance` datetime NULL,  
   PRIMARY KEY (`Id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
